@@ -47,7 +47,7 @@ function App() {
           <input
             type="text"
             id="textoInput"
-            placeholder="Ex: Teste Pedro Lucas"
+            placeholder="Ex: Teste de Conversão"
             required
             value={textoInput}
             onChange={(e) => setTextoInput(e.target.value)}
